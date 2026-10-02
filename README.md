@@ -29,7 +29,7 @@ URLs muito longas podem ser difíceis de compartilhar e pouco práticas em algum
 ### Manual (sem Docker)
 1. Instale o Java JDK 17+, Maven e o PostgreSQL 16+
 2. Configure o banco de dados
-3. Clone o repositório (pelo website ou com o comando `git clone https://github.com/thiishy/EncurtaUrl.git` caso tenha instalado o Git)
+3. Clone o repositório (pelo website ou com o comando `git clone https://github.com/thidevv/EncurtaUrl.git` caso tenha instalado o Git)
 4. Na raiz do repositório, crie um arquivo **.env** seguindo o template que está no arquivo **.env.example**:
    - **DB_NAME**: Nome do banco de dados
    - **DB_USERNAME**: Nome do seu usuário no banco de dados
@@ -45,7 +45,7 @@ URLs muito longas podem ser difíceis de compartilhar e pouco práticas em algum
 
 ### O caminho fácil (com Docker)
 1. Instale o Docker e o Docker Compose
-2. Clone o repositório (pelo website ou com o comando `git clone https://github.com/thiishy/EncurtaUrl.git` caso tenha instalado o Git)
+2. Clone o repositório (pelo website ou com o comando `git clone https://github.com/thidevv/EncurtaUrl.git` caso tenha instalado o Git)
 3. Na raiz do repositório, crie um arquivo **.env** seguindo o template que está no arquivo **.env.example**. Note que o banco de dados será **configurado automaticamente** pelo Docker Compose com os dados que você escolher aqui:
    - **DB_NAME**: Nome do banco de dados
    - **DB_USERNAME**: Nome do seu usuário no banco de dados
@@ -190,6 +190,6 @@ Os itens abaixo representam possíveis evoluções pensando em um cenário de pr
 
 ---
 
-Feito com ♥ por [thiishy](https://github.com/thiishy)
+Feito com ♥ por [thidevv](https://github.com/thidevv)
 
 Projeto desenvolvido para fins de estudo.
